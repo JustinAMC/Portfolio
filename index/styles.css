@@ -2,3 +2,9 @@ h1{
     font-family: 'Imbue', serif;
     font-size: 18.13rem;
 }
+
+.blackIcon {
+    height: 9.56rem;
+    width: auto;
+    margin: 0px 0px 20px 10px;
+}
