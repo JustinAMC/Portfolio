@@ -8,23 +8,3 @@ h1 {
     width: auto;
     margin: 0px 0px 20px 10px;
 }
-
-.marquee-wrap {
-    display: inline-flex;
-    white-space: nowrap;
-    justify-content: flex-start;
-    overflow: hidden;
-    animation: move-rtl 30000ms infinite linear;
-}
-
-@keyframes move-rtl{
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-    200% {
-        transform: translateX(100%);
-    }
-}
