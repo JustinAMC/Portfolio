@@ -25,7 +25,8 @@
 .black-icon{
     height: 153px;
     margin-top: 11px;
-    min-width: 153px;
+    min-height: 153px;
+    width: 153px;
     padding: 0 15.5px;
     left: 0;
 }
@@ -34,7 +35,7 @@
 /* Learn About Me Section */
 .blue-icon{
     align-self: center;
-    height: 163px;
+    min-height: 167px;
     margin-left: 20px;
     margin-top: 22px;
     position: relative;
@@ -90,6 +91,7 @@
 .btn-wrap{
     text-align: right;
     background-color: var(--rubrum);
+    margin-bottom: 0;
 }
 
 .rubrum-button{
@@ -99,4 +101,28 @@
     font-size: 1em;
     padding: 1em 2em;
     background-color: var(--rubrum);
+}
+
+/* GET IN TOUCH WITH ME */ 
+
+.yellow-icon{
+    margin-top:9px;
+    min-height:187px;
+    padding: 0 14.4px;
+    width:130px;
+}
+
+.git-container{
+    display: flex;
+    border: 6px solid black;
+    margin: auto 146px;
+}
+
+.git-left-col{
+    width: 80%;
+    border-right: 6px solid black;
+}
+.git-right-col{
+    width: 20%;
+    background-color: var(--flavum);
 }
