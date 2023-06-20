@@ -93,6 +93,15 @@
     font-size: var(--font-size-ss);
 }
 
+.lam-left-col-inner-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.flags{
+    width: 91px;
+    height: 91px;
+}
 
 /* Check Out My Work Section */
 .red-icon{
