@@ -98,6 +98,24 @@
     height: 91px;
 }
 
+.adobesprites{
+    width: 81px;
+    height: 81px;
+    margin-bottom: 20px;
+}
+
+.lam-left-col-inner-right{
+    margin-right: -60px;
+}
+
+.lam-left-col-inner-center{
+    margin-top: 10px;
+}
+
+.lam-left-col-inner-left{
+    margin-left: 15px;
+}
+
 /* Check Out My Work Section */
 .red-icon{
     margin-top:9px;
