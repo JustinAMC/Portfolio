@@ -93,13 +93,7 @@
     font-size: var(--font-size-ss);
 }
 
-.lam-left-col-inner-right,
-.lam-left-col-inner-left{
-    display: flex;
-    flex-direction: column;
-}
-
-.flags{
+.sprites{
     width: 91px;
     height: 91px;
 }
