@@ -91,6 +91,7 @@
     font-family: var(--font-family-montserrat);
     font-weight: 400;
     font-size: var(--font-size-ss);
+    line-height: 1.6;
 }
 
 .sprites{
@@ -105,7 +106,7 @@
 }
 
 .lam-left-col-inner-right{
-    margin-right: -60px;
+    margin-right: -40px;
 }
 
 .lam-left-col-inner-center{
@@ -174,6 +175,58 @@
     border-right: 6px solid black;
 }
 .git-right-col{
-    width: 20%;
+    width: 35%;
     background-color: var(--flavum);
+}
+.git-header-left{
+    display: flex;
+    color: var(--flavum);
+    font-family: var(--font-family-montserrat);
+    font-weight: 600;
+    font-size: var(--font-size-s);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+input{
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid var(--flavum);
+    padding: 12px 20px;
+    margin: 20px;
+}
+
+
+.submit{
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.submitbtn{
+    background-color: white;
+    color: black;
+    font-family: var(--font-family-montserrat);
+    border: 2px solid var(--flavum);
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.git-header-right{
+    display: flex;
+    justify-content: center;
+    color: var(--album);
+    font-family: var(--font-family-montserrat);
+    font-weight: 600;
+    font-size: var(--font-size-s);
+    margin-left: 10px;
+}
+
+.git-right-sprites{
+    display: flex;
+    justify-content: center;
+}
+
+.input-text{
+    font-family: var(--font-family-montserrat);
 }
