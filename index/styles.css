@@ -92,6 +92,7 @@
     font-weight: 400;
     font-size: var(--font-size-ss);
     line-height: 1.6;
+    margin-bottom: 25px;
 }
 
 .sprites{
@@ -230,3 +231,24 @@ input{
 .input-text{
     font-family: var(--font-family-montserrat);
 }
+
+.marquee-wrap{
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: -200px;
+}
+
+.marquee-wrap p {
+        display: inline-block;
+        padding-left: 100%; /* Adjust the value to control the speed */
+        animation: marquee 10s linear infinite;
+      }
+      
+      @keyframes marquee {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
