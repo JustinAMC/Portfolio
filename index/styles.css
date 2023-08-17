@@ -1,10 +1,10 @@
 :root{
-    --black: rgba(0,0,0,1);
-    --caeruleum: rgba(32,175,255,1);
-    --infra: rgba(217,217,217,1);
-    --rubrum: rgba(255,59,66,1);
-    --flavum: rgba(255,250,8,1);
-    --album: rgba(255,255,255,1);
+    --black: rgba(0, 0, 0, 1);
+    --caeruleum: rgba(22, 129, 191, 1);
+    --infra: rgba(186, 186, 186, 1); 
+    --rubrum: rgba(219, 35, 39, 1); 
+    --flavum: rgba(238, 231, 17, 1);
+    --album: rgba(255, 255, 255, 1);
 
     --font-size-s: 40px;
     --font-size-h: 290px;
@@ -209,7 +209,7 @@ ul{
 }
 .git-header-left{
     display: flex;
-    color: var(--flavum);
+    color: var(--black);
     font-family: var(--font-family-montserrat);
     font-weight: 600;
     font-size: var(--font-size-s);
@@ -244,7 +244,7 @@ input{
 .git-header-right{
     display: flex;
     justify-content: center;
-    color: var(--album);
+    color: var(--black);
     font-family: var(--font-family-montserrat);
     font-weight: 600;
     font-size: var(--font-size-s);
