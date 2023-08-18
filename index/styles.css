@@ -68,7 +68,7 @@ ul{
     width: 165px;
 }
 
-.lam-container{
+.container{
     display: flex;
     border: 6px solid black;
     margin: auto 146px;
@@ -140,12 +140,6 @@ ul{
     width:69px;
 }
 
-.comw-container{
-    display: flex;
-    border: 6px solid black;
-    margin: auto 146px;
-}
-
 .comw-left-col{
     width: 50%;
     border-right: 6px solid black;
@@ -177,12 +171,6 @@ ul{
     min-height:187px;
     padding: 0 14.4px;
     width:130px;
-}
-
-.git-container{
-    display: flex;
-    border: 6px solid black;
-    margin: auto 146px;
 }
 
 .git-left-col{
@@ -301,7 +289,7 @@ footer p{
 
 /* Media Queries */
 @media (max-width: 375px){
-    .lam-container{
+    .container{
         display: grid;
         flex-direction: column;
         width: 100%;
