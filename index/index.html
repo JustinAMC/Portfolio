@@ -109,7 +109,7 @@
         <!-- GET IN TOUCH BODY-->
         <section class="git-container">
             <div class="git-form">
-                <form id="form">
+                <form id="form" onsubmit="sendEmail(); reset(); return false;" >
                     <div class="git-header-left">
                         <p class="git-header-left">Contact me today and we'll be in touch ASAP.</p>
                     </div>
@@ -157,5 +157,7 @@
             <p>Colophon (Coming Soon!)</p>
         </footer>
 
+        <script src="main.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
     </body>
 </html>
