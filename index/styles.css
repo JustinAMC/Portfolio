@@ -39,16 +39,23 @@
 }
 
 .topnav a{
-    float: right;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: var(--font-size-s);
     font-family: var(--font-family-montserrat);
 }
+.topnav img{
+    width: 40px;
+    height: 40px;
+    margin-right: -20px;
+} 
+
 
 ul{
     list-style-type: none;
+    display: flex;
+    float: right;
 }
 
 /* Learn About Me Section */
@@ -282,3 +289,18 @@ input{
           transform: translateX(-100%);
         }
       }
+
+/* Footer */
+
+footer{
+    display: block;
+    background-color: var(--infra);
+    padding: 30px;
+    margin-top: 20px;
+}
+
+footer p{ 
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-ss);
+    text-align: center;
+}
