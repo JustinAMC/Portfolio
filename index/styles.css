@@ -80,44 +80,35 @@ ul{
     border-right: 6px solid black;
 }
 
-.lam-left-row-inner{
-    display: flex;
-    flex-direction: row;
-    gap: 45px;
-    justify-content: center;
-}
-
 .lam-right-col{
     width:60%;
+    display: flex;
+    flex-direction: column;
 }
 
-.lam-header-left{
-    display: flex;
-    justify-content: center;
-    color: var(--album);
+.heading-album{
+    color:var(--album);
     font-family: var(--font-family-montserrat);
     font-weight: 600;
     font-size: var(--font-size-s);
+    text-align: center;
 }
 
-.lam-header-right{
-    display: flex;
+.heading-caeruleum{
     color: var(--caeruleum);
     font-family: var(--font-family-montserrat);
     font-weight: 600;
     font-size: var(--font-size-s);
-    margin-left: 30px;
+    text-align: center;
 }
 
-.lam-body-right{
-    display:flex;
-    flex-direction: column;
+
+.lam-body{
     padding: 0px 30px 0px 30px;
     font-family: var(--font-family-montserrat);
     font-weight: 400;
     font-size: var(--font-size-ss);
-    line-height: 1.6;
-    margin-bottom: 25px;
+    line-height: 1.35;
 }
 
 .sprites{
@@ -139,18 +130,6 @@ ul{
 .gitsprite{
     width: 81px;
     height: 75px;
-}
-
-.lam-left-col-inner-right{
-    margin-right: -15px;
-}
-
-.lam-left-col-inner-center{
-    margin-top: 10px;
-}
-
-.lam-left-col-inner-left{
-    margin-left: 15px;
 }
 
 /* Check Out My Work Section */
@@ -319,3 +298,34 @@ footer p{
     font-size: var(--font-size-ss);
     text-align: center;
 }
+
+/* Media Queries */
+@media (max-width: 375px){
+    .lam-container{
+        display: grid;
+        flex-direction: column;
+        width: 100%;
+        margin: none;
+    }
+    .lam-left-col{
+        width: 100%;
+    }
+    .lam-right-col{
+        width: 100%;
+    }
+    }
+
+
+
+
+
+
+
+
+/* @media (max-width: 1300px){
+    .split{
+        grid-template-columns: auto auto auto;
+        gap: 2em;
+        justify-content: center;
+        }
+    } */
