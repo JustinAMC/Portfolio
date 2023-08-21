@@ -2,7 +2,7 @@ function sendEmail(){
     Email.send({
         Host : "smtp.elasticemail.com",
         Username : "justinmatosc@gmail.com",
-        Password : "Grootgeheim1!2",
+        Password :"---",
         To : 'justinmatosc@gmail.com',
         From : document.getElementById("email").value,
         Subject : "New Contact Form Submission",
