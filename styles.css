@@ -126,6 +126,14 @@ ul{
 
 /* CHECK OUY MY WORK */
 
+.heading-rubrum{
+        color: var(--rubrum);
+        font-family: var(--font-family-montserrat);
+        font-weight: 600;
+        font-size: var(--font-size-s);
+        text-align: center; 
+}
+
 .comw-left-col{
     width: 50%;
     border-right: 6px solid black;
