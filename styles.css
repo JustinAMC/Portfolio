@@ -309,7 +309,8 @@ footer p{
     .comw-left-col, .comw-right-col{
         width: 100%
     }
-    .git-right-col{
+    .git-right-col,
+    .git-left-col{
         width: 100%;
     }
     .marquee-container,
@@ -321,6 +322,9 @@ footer p{
     }
     .spritebox{
         gap: 1em;
+    }
+    .git-right-sprites{
+        margin-bottom: 25px;
     }
 }
 
