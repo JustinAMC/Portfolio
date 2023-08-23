@@ -14,6 +14,8 @@
     --font-family-montserrat: "Montserrat";
 }
 
+/* WELCOME MARQUEE */
+
 .imbue-normal-black-290px{
     color: var(--black);
     font-family: var(--font-family-imbue);
@@ -58,32 +60,12 @@ ul{
     float: right;
 } */
 
-/* Learn About Me Section */
-.blue-icon{
-    align-self: center;
-    min-height: 167px;
-    margin-left: 20px;
-    margin-top: 22px;
-    position: relative;
-    width: 165px;
-}
-
-.container{
-    display: flex;
-    border: 6px solid black;
-    margin: auto 146px;
-}
+/* LEARN ABOUT ME */
 
 .lam-left-col{
     width: 40%;
     background-color: var(--caeruleum);
     border-right: 6px solid black;
-}
-
-.lam-right-col{
-    width:60%;
-    display: flex;
-    flex-direction: column;
 }
 
 .heading-album{
@@ -93,25 +75,6 @@ ul{
     font-size: var(--font-size-s);
     text-align: center;
 }
-
-.heading-caeruleum{
-    color: var(--caeruleum);
-    font-family: var(--font-family-montserrat);
-    font-weight: 600;
-    font-size: var(--font-size-s);
-    text-align: center;
-}
-
-
-.lam-body{
-    padding: 0px 30px 0px 30px;
-    font-family: var(--font-family-montserrat);
-    font-weight: 400;
-    font-size: var(--font-size-ss);
-    line-height: 1.35;
-}
-
-
 .spritebox{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -139,14 +102,29 @@ ul{
     width: 81px;
     height: 75px;
 }
-
-/* Check Out My Work Section */
-.red-icon{
-    margin-top:9px;
-    min-height:197px;
-    padding: 0 14.4px;
-    width:69px;
+.lam-right-col{
+    width:60%;
+    display: flex;
+    flex-direction: column;
 }
+
+.heading-caeruleum{
+    color: var(--caeruleum);
+    font-family: var(--font-family-montserrat);
+    font-weight: 600;
+    font-size: var(--font-size-s);
+    text-align: center;
+}
+
+.lam-body{
+    padding: 0px 30px 0px 30px;
+    font-family: var(--font-family-montserrat);
+    font-weight: 400;
+    font-size: var(--font-size-ss);
+    line-height: 1.35;
+}
+
+/* CHECK OUY MY WORK */
 
 .comw-left-col{
     width: 50%;
@@ -173,30 +151,18 @@ ul{
 }
 
 /* GET IN TOUCH WITH ME */ 
-
-.yellow-icon{
-    margin-top:9px;
-    min-height:187px;
-    padding: 0 14.4px;
-    width:130px;
-}
-
-.git-left-col{
-    width: 80%;
-    border-right: 6px solid black;
-}
-.git-right-col{
-    width: 35%;
-    background-color: var(--flavum);
-}
-.git-header-left{
-    display: flex;
+.heading-black{
     color: var(--black);
     font-family: var(--font-family-montserrat);
     font-weight: 600;
     font-size: var(--font-size-s);
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.git-left-col{
+    width: 80%;
+    border-right: 6px solid black;
 }
 
 input{
@@ -207,6 +173,9 @@ input{
     margin: 20px;
 }
 
+.input-text{
+    font-family: var(--font-family-montserrat);
+}
 
 .submit{
     text-align: right;
@@ -223,14 +192,9 @@ input{
     cursor: pointer;
 }
 
-.git-header-right{
-    display: flex;
-    justify-content: center;
-    color: var(--black);
-    font-family: var(--font-family-montserrat);
-    font-weight: 600;
-    font-size: var(--font-size-s);
-    margin-left: 10px;
+.git-right-col{
+    width: 35%;
+    background-color: var(--flavum);
 }
 
 .git-right-sprites{
@@ -238,23 +202,26 @@ input{
     justify-content: center;
 }
 
-.input-text{
-    font-family: var(--font-family-montserrat);
-}
-
-/* Phone Input Arrow Hider */
+/* This bit hides the arrows in the phone number input */
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
-  appearance: textfield;
+  appearance: none;
   margin: 0;
 }
-
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
   appearance: textfield;
+}
+
+/* CONTAINER */
+
+.container{
+    display: flex;
+    border: 6px solid black;
+    margin: auto 146px;
 }
 
 /* MARQUEES */
@@ -263,6 +230,29 @@ input[type=number] {
     overflow: hidden;
     white-space: nowrap;
     margin-top: -200px;
+}
+
+.blue-icon{
+    align-self: center;
+    min-height: 167px;
+    margin-left: 20px;
+    margin-top: 22px;
+    position: relative;
+    width: 165px;
+}
+
+.red-icon{
+    margin-top:9px;
+    min-height:197px;
+    padding: 0 14.4px;
+    width:69px;
+}
+
+.yellow-icon{
+    margin-top:9px;
+    min-height:187px;
+    padding: 0 14.4px;
+    width:130px;
 }
 
 .marquee-container p {
@@ -280,22 +270,8 @@ input[type=number] {
         }
       }
 
-/* Footer */
+/* MEDIA QUIERIES */
 
-/* footer{
-    display: block;
-    background-color: var(--infra);
-    padding: 30px;
-    margin-top: 20px;
-} */
-
-footer p{ 
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-ss);
-    text-align: center;
-}
-
-/* Media Queries */
 @media (max-width: 850px){
     .container{
         display: grid;
