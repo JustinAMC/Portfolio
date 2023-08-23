@@ -301,7 +301,6 @@ footer p{
         display: grid;
         flex-direction: column;
         width: 100%;
-        margin: none;
     }
     .lam-left-col, .lam-right-col{
         width: 100%;
